@@ -17,6 +17,14 @@
 # Sample: This is where we'd set a backup provider if we had one
 # $(call inherit-product, device/sample/products/backup_overlay.mk)
 
+# Some common sabermod variables before common
+
+O3_OPTIMIZATIONS := true
+TARGET_SM_KERNEL := SM-4.9
+TARGET_SM_AND := 4.9
+TARGET_ARCH := arm64
+ENABLE_PTHREAD := true
+
 # Inherit from our custom product configuration
 $(call inherit-product, vendor/omni/config/common_tablet.mk)
 

@@ -20,7 +20,7 @@
 # Some common sabermod variables before common
 
 O3_OPTIMIZATIONS := true
-TARGET_SM_KERNEL := 4.9
+TARGET_SM_KERNEL := SM-4.9
 TARGET_SM_AND := 4.9
 TARGET_ARCH := arm64
 ENABLE_PTHREAD := true
